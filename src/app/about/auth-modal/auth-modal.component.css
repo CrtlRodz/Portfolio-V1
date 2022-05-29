@@ -1,0 +1,6 @@
+img {
+    display: flex;
+    margin: auto;
+    width: 200px;
+    box-align: right;
+}

@@ -1,0 +1,40 @@
+<header id="header" class="bg-secondary">
+    <nav class="container mx-auto flex justify-start items-center py-8 px-4">
+        <!--  App Name -->
+        <a class="title text-3xl text-gray-50 font-bold uppercase mr-4" href="index.html">CtrlRodz</a
+    >
+
+    <div class="flex flex-grow items-center">
+      <!-- Primary Navigation -->
+      <ul class="flex flex-row mt-1">
+        <!-- Navigation Links -->
+
+        <li>
+          <a
+            class="px-2 subpixel-antialiased font-sans bolder"
+            href="#"
+            (click)="openModal($event)"
+            >About</a
+          >
+        </li>
+        <li>
+          <a routerLink="/experience">Experience</a>
+        </li>
+        </ul>
+        </div>
+
+        <div class="icons">
+            <!-- inline contain wont make a new line -->
+            <li class="flex flex-row ml-auto">
+                <a href="https://www.linkedin.com/in/cari-anne-moore-36163111a/" target="_blank">
+                    <img class="inline-block" src="../assets/linkedinIcon.svg" alt="LinkedIn Profile" />
+                </a>
+            </li>
+            <span class="flex flex-row ml-auto">
+        <a href="https://github.com/CrtlRodz" target="_blank">
+          <img src="../assets/github_icon.svg" alt="Github Profile" />
+        </a>
+      </span>
+        </div>
+    </nav>
+</header>
