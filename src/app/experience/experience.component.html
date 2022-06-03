@@ -1,1 +1,13 @@
-<p>experience works!</p>
+<div>
+    <section *ngFor="let experience of experiences">
+        <h1>{{experience.title}}</h1>
+        <p>{{experience.date}}</p>
+        <p>{{experience.company}}</p>
+        <div *ngFor="let duty of experience.duties">
+            <li>{{duty}}</li>
+        </div>
+        <div *ngFor="let skill of experience.skills">
+            <li>{{skill}}</li>
+        </div>
+    </section>
+</div>
