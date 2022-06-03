@@ -1,16 +1,18 @@
-<section class="relative overflow-hidden mb-2">
-<section *ngFor="let experience of experiences">
-        <h1>{{experience.title}}</h1>
-        <p>{{experience.date}}</p>
-        <p>{{experience.company}}</p>
-        <div *ngFor="let duty of experience.duties">
-            <li>{{duty}}</li>
-        </div>
-        <div *ngFor="let skill of experience.skills">
-            <li>{{skill}}</li>
-        </div>
+<div class="projectDiv">
+    <section class="relative overflow-hidden mb-2">
+        <section *ngFor="let experience of experiences">
+            <h1>{{ experience.title }}</h1>
+            <p>{{ experience.date }}</p>
+            <p>{{ experience.company }}</p>
+            <div *ngFor="let duty of experience.duties">
+                <li>{{ duty }}</li>
+            </div>
+
+            <mat-card class="project p-8">
+                <div *ngFor="let skill of experience.skills">
+                    <li>{{ skill }}</li>
+                </div>
+            </mat-card>
+        </section>
     </section>
-</section>
-
-
-
+</div>
