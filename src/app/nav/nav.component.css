@@ -11,8 +11,8 @@
     text-align: center;
 }
 
-img:hover {
-    /* filter: drop-shadow(16px 16px 20px rgb(2, 175, 243)); */
+.icon:hover {
+    /*  */
     background: linear-gradient(132deg, #1c7eee, #0ee661, #081ee0);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
@@ -22,6 +22,10 @@ img:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.navlink:hover {
+    filter: drop-shadow(16px 26px 20px rgba(78, 243, 2, 0.986));
 }
 
 img {

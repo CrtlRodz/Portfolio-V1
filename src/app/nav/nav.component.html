@@ -1,7 +1,13 @@
 <header id="header" class="bg-secondary">
     <nav class="container mx-auto flex justify-start items-center py-8 px-4">
         <!--  App Name -->
-        <a class="title text-3xl text-gray-50 font-bold uppercase mr-4" href="index.html">CtrlRodz</a
+        <!-- <a class="title text-3xl text-gray-50 font-bold uppercase mr-4" href="index.html">CtrlRodz</a> -->
+        <li class="flex px-5">
+            <a href="index.html">
+                <img class="inline-block" src="./assets/intelligence_brain_hemisphere_icon.png" alt="Cari-Anne Logo" />
+            </a>
+        </li>
+        <a class="title text-3xl text-gray-50 font-bold uppercase mr-4" href="#" (click)="openModal($event)" href="index.html">CtrlRodz</a
     >
 
     <div class="flex flex-grow items-center">
@@ -11,14 +17,14 @@
 
         <li>
           <a
-            class="px-2 subpixel-antialiased font-sans bolder"
+            class="navlink px-2 subpixel-antialiased font-sans bolder"
             href="#"
             (click)="openModal($event)"
             >About</a
           >
         </li>
         <li>
-          <a routerLink="/experience">Experience</a>
+          <a class="navlink" routerLink="/experience">Experience</a>
         </li>
         </ul>
         </div>
@@ -27,12 +33,16 @@
             <!-- inline contain wont make a new line -->
             <li class="flex flex-row ml-auto">
                 <a href="https://www.linkedin.com/in/cari-anne-moore-36163111a/" target="_blank">
-                    <img class="inline-block" src="../assets/linkedinIcon.svg" alt="LinkedIn Profile" />
+                    <img class="icon inline-block" src="../assets/linkedinIcon.svg" alt="LinkedIn Profile" />
                 </a>
             </li>
             <span class="flex flex-row ml-auto">
         <a href="https://github.com/CrtlRodz" target="_blank">
-          <img src="../assets/github_icon.svg" alt="Github Profile" />
+          <img
+            class="icon"
+            src="../assets/github_icon.svg"
+            alt="Github Profile"
+          />
         </a>
       </span>
         </div>
