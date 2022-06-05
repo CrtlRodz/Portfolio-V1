@@ -1,19 +1,17 @@
 <div class="projectDiv">
     <section class="">
         <section *ngFor="let experience of experiences">
-            <mat-card class="py-4">
-                <h1>{{ experience.title }}</h1>
-                <p>{{ experience.date }}</p>
-                <p>{{ experience.company }}</p>
-                <div *ngFor="let duty of experience.duties">
-                    <li>{{ duty }}</li>
-                </div>
+            <h1>{{ experience.title }}</h1>
+            <p>{{ experience.date }}</p>
+            <p>{{ experience.company }}</p>
+            <div *ngFor="let duty of experience.duties">
+                <li>{{ duty }}</li>
+            </div>
 
-                <!-- <mat-card class="project p-8 bg-gradient-to-r from-cyan-400">
+            <mat-card class="py-4 block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 pt-4">
                 <div *ngFor="let skill of experience.skills">
                     <li>{{ skill }}</li>
                 </div>
-            </mat-card> -->
             </mat-card>
         </section>
     </section>
