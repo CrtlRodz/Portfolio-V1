@@ -15,8 +15,9 @@ import { ExperienceComponent } from './experience/experience.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { ProjectsComponent } from './projects/projects.component';
 @NgModule({
-  declarations: [AppComponent, NavComponent, ExperienceComponent, HomeComponent, FooterComponent, AboutMeComponent],
+  declarations: [AppComponent, NavComponent, ExperienceComponent, HomeComponent, FooterComponent, AboutMeComponent, ProjectsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
