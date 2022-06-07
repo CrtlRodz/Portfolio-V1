@@ -14,8 +14,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { ExperienceComponent } from './experience/experience.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 @NgModule({
-  declarations: [AppComponent, NavComponent, ExperienceComponent, HomeComponent, FooterComponent],
+  declarations: [AppComponent, NavComponent, ExperienceComponent, HomeComponent, FooterComponent, AboutMeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
