@@ -10,6 +10,5 @@
             "projectImage":"./assets/img/gregGame.gif",
             "longDescription":"The following are modules for this Greg Game.\nThe Environment.\nThe Model(Reinforcement model for move prediction)\nThe Agent\n",
             "sourceCode":""
-
     }
 ]
