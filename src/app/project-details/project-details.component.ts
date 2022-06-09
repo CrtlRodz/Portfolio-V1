@@ -25,5 +25,4 @@ project!:Project | undefined;
     const id = Number(this.route.snapshot.paramMap.get('id'));
     this.projectService.getprojects().subscribe(project => this.project = project.find(item => item.id === id))
   }
-
 }

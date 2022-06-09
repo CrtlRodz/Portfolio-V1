@@ -8,7 +8,7 @@
             "dateCreated":"12 May 2022",
             "shortDescription":" This Project is based on Reinforcement Learning which trains the snake to eat the food present in the environment.",
             "projectImage":"./assets/img/gregGame.gif",
-            "longDescription":""
-          
+            "longDescription":"I created three Modules for this project.\nThe Environment.\nThe Model(Reinforcement model for move prediction)\nThe Agent",
+            "sourceCode":""
     }
 ]
