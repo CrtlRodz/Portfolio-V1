@@ -16,8 +16,10 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ProjectDetailsComponent } from './project-details/project-details.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
-  declarations: [AppComponent, NavComponent, ExperienceComponent, HomeComponent, FooterComponent, AboutMeComponent, ProjectsComponent],
+  declarations: [AppComponent, NavComponent, ExperienceComponent, HomeComponent, FooterComponent, AboutMeComponent, ProjectsComponent, ProjectDetailsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -29,7 +31,7 @@ import { ProjectsComponent } from './projects/projects.component';
     MatButtonModule,
     MatCardModule,
     MatSidenavModule,
-  ],
+    HttpClientModule,],
   providers: [],
   bootstrap: [AppComponent],
 })
