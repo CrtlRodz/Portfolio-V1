@@ -11,6 +11,9 @@
         <span class="text-gray-400">Date Created :{{project.dateCreated}}</span>
     </p>
     <p>{{project.longDescription}}</p>
+    <h2>TechStack</h2>
+    <ol *ngFor="let stack of project.library">
+        <li>{{stack}}</li>
+    </ol>
     </div>
- 
 </div>
