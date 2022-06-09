@@ -6,4 +6,5 @@ export interface Project {
     dateCreated:string;
     shortDescription:string;
     projectImage:string;
+    longDescription:string
 }
