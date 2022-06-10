@@ -25,7 +25,8 @@
 }
 
 .navlink:hover {
-    filter: drop-shadow(16px 26px 20px rgba(25, 184, 184, 0.986));
+    filter: drop-shadow(0 0 2px  rgb(16, 247, 247));
+    text-decoration-line: underline;
 }
 
 img {

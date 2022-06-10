@@ -2,3 +2,9 @@ img{
     width: 25px;
     place-items: end;
 }
+.title{
+    filter: drop-shadow(0 0 2px  rgb(16, 247, 247))
+}
+button{
+    place-items: end;
+}

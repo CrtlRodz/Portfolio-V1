@@ -4,3 +4,7 @@
 .githubstats{
     height: fit-content;
 }
+.title{
+    color: black;
+    filter: drop-shadow(0 0 2px  rgb(16, 247, 247))
+}
