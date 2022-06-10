@@ -8,7 +8,7 @@ import { Component, OnInit } from "@angular/core";
 export class ExperienceComponent implements OnInit {
   experiences = [
     {
-      title: "System Developer",
+      title: "Software Developer",
       company: "Gap Infrastructure Corporation",
       companylogo:"./assets/img/GICLogo.png",
       companyUrl:"https://www.gic.co.za/",
