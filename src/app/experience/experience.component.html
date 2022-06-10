@@ -1,17 +1,22 @@
-<section >
+<section class="">
     <h1 class="uppercase text-center text-4xl grid mt-20 mb-12 items-center gap-8 tracking-widest latest">
         Experience
     </h1>
-<div class="projectDiv">
-    <section class="">
-        <section *ngFor="let experience of experiences">
+    <div class="p-8">
+    <ol *ngFor="let experience of experiences" class="relative border-l border-gray-200 dark:border-gray-700">                  
+        <li class="mb-10 ml-4">
+            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-300">{{ experience.date }}</time>
             <h1>{{ experience.title }}</h1>
-            <p>{{ experience.date }}</p>
-            <p>{{ experience.company }}</p>
-            <div *ngFor="let duty of experience.duties">
-                <li>{{ duty }}</li>
-            </div>
-        </section>
-    </section>
+            <!-- <img class="flex-initial object-scale-down h-48 w-96" src={{experience.companylogo}} /> -->
+            <a href={{experience.companyUrl}} target="_blank">
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">{{ experience.company }}</h3>
+            </a>
+                <ul  *ngFor="let duty of experience.duties">
+                <li class="mb-4 text-base font-normal text-gray-100">{{ duty }}</li>
+            </ul>
+        </li>
+    </ol>
 </div>
+</section>
 
