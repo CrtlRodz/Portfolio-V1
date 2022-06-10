@@ -1,9 +1,9 @@
 <section class="">
-    <h1 class="uppercase text-center text-neutral-900 text-4xl grid mt-20 mb-12 items-center gap-8 tracking-widest latest">
+    <h1 class="title uppercase text-center text-neutral-900 text-4xl grid mt-20 mb-12 items-center gap-8 tracking-widest latest">
         Experience
     </h1>
-    <div class="p-8">
-    <ol *ngFor="let experience of experiences" class="relative border-l border-gray-900 dark:border-gray-900">                  
+    <div *ngFor="let experience of experiences" class="p-8">
+    <ol  class="relative border-l border-gray-900 dark:border-gray-900">                  
         <li class="mb-10 ml-4">
             <div class="absolute w-3 h-3 bg-cyan-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-900"></div>
             <h1 class="text-cyan-400">{{ experience.title }}</h1>
@@ -17,10 +17,13 @@
                 <ul  *ngFor="let duty of experience.duties">
                 <li class="mb-4 text-base font-normal text-neutral-500">{{ duty }}</li>
             </ul>
-            <!-- <a href={{experience.companyUrl}} target="_blank" class="inline-flex items-center py-2 px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-cyan-400 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-cyan-400 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">
-                 Company Site</a> -->
+            
         </li>
+
     </ol>
+    <div *ngFor="let skill of experience.skills">
+            <button type="button" class="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">{{skill}}</button>
+    </div>
 </div>
 </section>
 
