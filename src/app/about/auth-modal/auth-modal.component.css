@@ -1,6 +1,16 @@
 img {
+    width: 50px;
+}
+
+.icon:hover {
+    /*  */
+    background: linear-gradient(132deg, #1c7eee, #0ee661, #081ee0);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+.icons {
     display: flex;
-    margin: auto;
-    width: 200px;
-    box-align: right;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
