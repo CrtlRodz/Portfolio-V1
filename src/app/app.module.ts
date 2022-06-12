@@ -18,7 +18,7 @@ import { AboutMeComponent } from "./about-me/about-me.component";
 import { ProjectsComponent } from "./projects/projects.component";
 import { ProjectDetailsComponent } from "./project-details/project-details.component";
 import { HttpClientModule } from "@angular/common/http";
-import { NgChartsModule } from "ng2-charts";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,7 +42,6 @@ import { NgChartsModule } from "ng2-charts";
     MatCardModule,
     MatSidenavModule,
     HttpClientModule,
-    NgChartsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
