@@ -1,25 +1,35 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { NavComponent } from './nav/nav.component';
-import { AboutModule } from './about/about.module';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatButtonModule } from '@angular/material/button';
-import { MatCardModule } from '@angular/material/card';
-import { MatIconModule } from '@angular/material/icon';
-import { MatDividerModule } from '@angular/material/divider';
-import { MatSidenavModule } from '@angular/material/sidenav';
-import { ExperienceComponent } from './experience/experience.component';
-import { HomeComponent } from './home/home.component';
-import { FooterComponent } from './footer/footer.component';
-import { AboutMeComponent } from './about-me/about-me.component';
-import { ProjectsComponent } from './projects/projects.component';
-import { ProjectDetailsComponent } from './project-details/project-details.component';
-import { HttpClientModule } from '@angular/common/http';
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
+import { AppRoutingModule } from "./app-routing.module";
+import { AppComponent } from "./app.component";
+import { NavComponent } from "./nav/nav.component";
+import { AboutModule } from "./about/about.module";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { MatToolbarModule } from "@angular/material/toolbar";
+import { MatButtonModule } from "@angular/material/button";
+import { MatCardModule } from "@angular/material/card";
+import { MatIconModule } from "@angular/material/icon";
+import { MatDividerModule } from "@angular/material/divider";
+import { MatSidenavModule } from "@angular/material/sidenav";
+import { ExperienceComponent } from "./experience/experience.component";
+import { HomeComponent } from "./home/home.component";
+import { FooterComponent } from "./footer/footer.component";
+import { AboutMeComponent } from "./about-me/about-me.component";
+import { ProjectsComponent } from "./projects/projects.component";
+import { ProjectDetailsComponent } from "./project-details/project-details.component";
+import { HttpClientModule } from "@angular/common/http";
+import { NgChartsModule } from "ng2-charts";
 @NgModule({
-  declarations: [AppComponent, NavComponent, ExperienceComponent, HomeComponent, FooterComponent, AboutMeComponent, ProjectsComponent, ProjectDetailsComponent],
+  declarations: [
+    AppComponent,
+    NavComponent,
+    ExperienceComponent,
+    HomeComponent,
+    FooterComponent,
+    AboutMeComponent,
+    ProjectsComponent,
+    ProjectDetailsComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -31,7 +41,9 @@ import { HttpClientModule } from '@angular/common/http';
     MatButtonModule,
     MatCardModule,
     MatSidenavModule,
-    HttpClientModule,],
+    HttpClientModule,
+    NgChartsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
