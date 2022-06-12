@@ -2,9 +2,9 @@
 <h1 class="title uppercase text-center text-4xl grid mt-20 mb-12 items-center gap-8 tracking-widest latest">
     Projects
 </h1>
-<section *ngFor="let project of projects">
+<section *ngFor="let project of projects" class="">
     <!-- Clips List -->
-    <div class="grid grid-cols-3 gap-4 container mx-auto">
+    <div class="flex flex-row grid grid-cols-3 gap-4 container mx-auto">
         <div class="mt-6 rounded-tl-2xl rounded-br-2xl shadow-xl bg-secondary transform hover:-translate-y-2 hover:shadow-2xl transition duration-300">
             <!-- Image -->
             <img class="card-img-top rounded-tl-2xl w-full" src="{{ project.projectImage }}" />
