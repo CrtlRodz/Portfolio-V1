@@ -10,25 +10,25 @@
         "sourceCode": "https://github.com/CrtlRodz/GregGame/tree/main/snake_game"
     },
     {
-        "id": 3,
-
-        "ProjectName": "Note Taker App",
-        "techStack": ["JavaScript", "HTML", "SCSS"],
-        "dateCreated": "7 December 2021",
-        "shortDescription": " This application allows a users to store all notes in one location.",
-        "projectImage": "./assets/img/NoteTakerApp.jpg",
-        "longDescription": "This application allows a users to store all notes in one location. The languages used to create this application are JavaScript for functionality, HTML for the front end and SCSS for the appearance of elements. The reason SCSS was used was to improve the quality of code written and shorten the time to write the scss",
-        "sourceCode": "https://github.com/CrtlRodz/NoteTakerApp/tree/main/PersonalApp"
-    },
-    {
         "id": 2,
 
         "ProjectName": "Grogu Voice Activated Virtual Assistant",
         "techStack": ["Python"],
         "dateCreated": "5 April 2022",
         "shortDescription": " This is a virtual assistant like Google Assistant which is able to perform tasks like opening websites, playing music, playing videos, and more.",
-        "projectImage": "./assets/img/NoteTakerApp.jpg",
+        "projectImage": "./assets/img/yoda.png",
         "longDescription": "This application is a virtual assistant which is able to perform tasks like opening websites, playing music, playing videos, and more. The application is built using Python and the libraries used are SpeechRecognition, pyttsx3, and pygame. The application is able to recognize the voice and perform the task.",
         "sourceCode": "https://github.com/CrtlRodz/Grogu-voice-activated-virtual-assistant/blob/main/GroguVA.py"
+    },
+    {
+        "id": 3,
+
+        "ProjectName": "Note Taker App",
+        "techStack": ["JavaScript", "HTML", "SCSS"],
+        "dateCreated": "7 December 2021",
+        "shortDescription": " This application allows a users to store all notes in one location.",
+        "projectImage": "./assets/img/reading_icon.png",
+        "longDescription": "This application allows a users to store all notes in one location. The languages used to create this application are JavaScript for functionality, HTML for the front end and SCSS for the appearance of elements. The reason SCSS was used was to improve the quality of code written and shorten the time to write the scss",
+        "sourceCode": "https://github.com/CrtlRodz/NoteTakerApp/tree/main/PersonalApp"
     }
 ]

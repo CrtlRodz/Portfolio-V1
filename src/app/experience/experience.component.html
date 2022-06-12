@@ -20,25 +20,24 @@
           </li>
         </ul>
         <div class="flex">
-          <button
+          <div
             *ngFor="let skill of experience.skills"
-            type="button"
             [ngClass]="
               skill === 'Laserfiche'
                 ? 'text-white bg-orange-400 hover:bg-orange-400 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-orange-400'
                 : skill === 'Mtwo' || skill === 'MyLiberty'
-                ? 'text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'
+                ? 'text-white bg-blue-700  focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600  dark:focus:ring-blue-800'
                 : skill === 'MySQL'
-                ? 'text-white bg-red-400 hover:bg-red-400 focus:outline-none focus:ring-4 focus:ring-red-40 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'
+                ? 'text-white bg-red-400  focus:outline-none focus:ring-4 focus:ring-red-40 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 bg-blue-700 dark:focus:ring-blue-800'
                 : skill === 'JavaScript' || skill === 'Bellin'
-                ? 'text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-yellow-900'
+                ? 'text-white bg-yellow-400  focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 '
                 : skill === 'CSS'
-                ? 'text-white bg-teal-400 hover:bg-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-400 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-teal-400 dark:hover:bg-teal-400 dark:focus:ring-teal-400'
+                ? 'text-white bg-teal-400 focus:outline-none focus:ring-4 focus:ring-teal-400 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-teal-400  dark:focus:ring-teal-400'
                 : 'text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2'
             "
           >
             {{ skill }}
-          </button>
+          </div>
         </div>
       </li>
     </ol>
