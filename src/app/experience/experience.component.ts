@@ -18,7 +18,7 @@ export class ExperienceComponent implements OnInit {
         "Resolving system and user issues.",
         "Develop,testing and validating procedures",
       ],
-      skills: ["Laserfiche", "Mtwo", "MySQL", "JavaScript", "CSS"],
+      skills: ["Laserfiche", "Mtwo", "SQL", "JavaScript", "CSS"],
     },
     {
       title: "System Support Technician",
@@ -36,7 +36,7 @@ export class ExperienceComponent implements OnInit {
         "Identifying and assigning employees roles within software platforms",
         "Configuration of software platforms.",
       ],
-      skills: ["Laserfiche", "Mtwo", "MySQL"],
+      skills: ["Laserfiche", "Mtwo", "SQL"],
     },
     {
       title: "Intern",
@@ -51,7 +51,7 @@ export class ExperienceComponent implements OnInit {
         "Store, retrieve, and manipulate data for analysis of system capabilities and requirements",
         "Modify existing software to correct errors",
       ],
-      skills: ["Bellin", "MySQL"],
+      skills: ["Bellin", "SQL"],
     },
     {
       title: "IT Intern (Technical support)",

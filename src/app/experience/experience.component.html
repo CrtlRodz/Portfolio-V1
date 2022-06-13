@@ -11,7 +11,7 @@
                     {{ experience.company }}
                     <a href="{{ experience.companyUrl }}" target="_blank"><img src="../assets/img/external_link_icon.png" class="inline-block hover:bg-cyan-400" /></a>
                 </h3>
-                <time class="mb-1 text-sm font-normal leading-none text-neutral-900 text-neutral-900">{{ experience.date }}</time
+                <time class="mb-1 text-sm font-normal leading-none text-neutral-900">{{ experience.date }}</time
         >
         <!-- <img class="flex-initial object-scale-down h-48 w-96" src={{experience.companylogo}} /> -->
         <ul *ngFor="let duty of experience.duties">
@@ -24,16 +24,16 @@
             *ngFor="let skill of experience.skills"
             [ngClass]="
               skill === 'Laserfiche'
-                ? 'text-white bg-orange-400 hover:bg-orange-400 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-orange-400'
+                ?'orangebutton'
                 : skill === 'Mtwo' || skill === 'MyLiberty'
-                ? 'text-white bg-blue-700  focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600  dark:focus:ring-blue-800'
-                : skill === 'MySQL'
-                ? 'text-white bg-red-400  focus:outline-none focus:ring-4 focus:ring-red-40 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 bg-blue-700 dark:focus:ring-blue-800'
+                ? 'bluebutton'
+                : skill === 'SQL'
+                ? 'redbutton'
                 : skill === 'JavaScript' || skill === 'Bellin'
-                ? 'text-white bg-yellow-400  focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 '
+                ? 'yellowbutton '
                 : skill === 'CSS'
-                ? 'text-white bg-teal-400 focus:outline-none focus:ring-4 focus:ring-teal-400 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-teal-400  dark:focus:ring-teal-400'
-                : 'text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2'
+                ? 'babybluebutton'
+                : 'defaultbutton'
             "
           >
             {{ skill }}
