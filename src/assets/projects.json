@@ -7,9 +7,10 @@
         "shortDescription": " This Project is based on Reinforcement Learning which trains the greg to eat the food present in the environment.",
         "projectImage": "./assets/img/gregGame.gif",
         "longDescription": ["The following are modules for this Greg Game."],
+        "sourceCode": "https://github.com/CrtlRodz/GregGame/tree/main/snake_game",
         "elements":["The Environment","The Model(Reinforcement model for move prediction)","The Agent"],
-        "models":["The game starts, and the Q-value is randomly generated.","The system gets the current state 's'","Based on 's', it executes an action, randomly or based on its neural network.","When the AI chooses and performs the action, the environment gives a reward. Then, the agent reaches the new state and updates its Q-value according to the Bellman equation"],
-        "sourceCode": "https://github.com/CrtlRodz/GregGame/tree/main/snake_game"
+        "models":["The Greg Game starts, and the Q-value is randomly generated.","The system gets the current state 's'","Based on 's', it executes an action, randomly.","When the Greg chooses and performs the action, the environment gives a reward.\nThen, the agent reaches the new state and updates its Q-value according to the Bellman equation"],
+        "bellmanImg":"./assets/img/BellmanEquation.png"
     },
     {
         "id": 2,

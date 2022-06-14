@@ -18,6 +18,7 @@ import { AboutMeComponent } from "./about-me/about-me.component";
 import { ProjectsComponent } from "./projects/projects.component";
 import { ProjectDetailsComponent } from "./project-details/project-details.component";
 import { HttpClientModule } from "@angular/common/http";
+import { NotfoundComponent } from './notfound/notfound.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { HttpClientModule } from "@angular/common/http";
     AboutMeComponent,
     ProjectsComponent,
     ProjectDetailsComponent,
+    NotfoundComponent,
   ],
   imports: [
     BrowserModule,
