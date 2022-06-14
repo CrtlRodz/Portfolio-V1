@@ -9,11 +9,11 @@
             <span class="text-cyan-400">Date Created :{{ project.dateCreated }}</span>
         </p>
         <p>{{ project.longDescription }}</p>
-        <mat-card>
+        
             <h2 class="text-slate-900">TechStack</h2>
             <li *ngFor="let stack of project.techStack">
                 {{ stack }}
             </li>
-        </mat-card>
+        
     </div>
 </div>
