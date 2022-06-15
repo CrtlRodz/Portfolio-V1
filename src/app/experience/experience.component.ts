@@ -21,7 +21,7 @@ export class ExperienceComponent implements OnInit {
       skills: ["Laserfiche", "Mtwo", "SQL", "JavaScript", "CSS"],
     },
     {
-      title: "System Support Technician",
+      title: "System Developer",
       company: "Gap Infrastructure Corporation",
       companylogo: "./assets/img/GICLogo.png",
       companyUrl: "https://www.gic.co.za/",
