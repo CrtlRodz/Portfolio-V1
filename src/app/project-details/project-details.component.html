@@ -1,26 +1,37 @@
 <div *ngIf="!project">loading</div>
 <div  *ngIf="project" class="container mx-auto flex justify-center items-center flex-col">
     <h1 class="text-slate-900">{{ project.ProjectName }}</h1>
+    <p class="mb-0">
+        <span class="text-cyan-400">Date Created :{{ project.dateCreated }}</span>
+    </p>
+    <div class="flex">
+    <div 
+            *ngFor="let stack of project.techStack"
+            [ngClass]="
+            stack === 'Python'
+                ?'pythonButton'
+                : stack === 'JavaScript' 
+                ? 'javascriptButton'
+                : stack === 'SCSS'
+                ? 'scssButton'
+                : stack === 'HTML' 
+                ? 'HTMLButton '
+                : 'defaultbutton'
+            "
+          >
+            {{ stack }}
+          </div>
+        </div>
     <img class="card-img-top rounded-tl-2xl h-[230px] " src="{{ project.projectImage }}" />
 <div class="text-gray-900">
-    
-
     <div class="p-8">
-        
-        <p class="mb-0">
-            <span class="text-cyan-400">Date Created :{{ project.dateCreated }}</span>
-        </p>
         <p>{{ project.longDescription }}</p>
         <ul *ngFor="let element of project.elements">{{element}}</ul>
         <br>
-        
         <li *ngFor="let model of project.models">{{model}}</li>
         <br>
         <img src="{{project.bellmanImg}}">
-        <!-- <h2 class="text-slate-900">TechStack</h2>
-        <li *ngFor="let stack of project.techStack">
-            {{ stack }}
-        </li> -->
+        
     </div>
     
 </div>
