@@ -21,10 +21,13 @@
           >
             {{ stack }}
           </div>
+          
         </div>
     <img class="card-img-top rounded-tl-2xl h-[230px] " src="{{ project.projectImage }}" />
+
 <div class="text-gray-900">
     <div class="p-8">
+        <!-- <li class="flex"*ngFor="let lib of project.library">{{lib}}</li> -->
         <p>{{ project.longDescription }}</p>
         <ul *ngFor="let element of project.elements">{{element}}</ul>
         <br>
