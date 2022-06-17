@@ -68,6 +68,7 @@ export class ExperienceComponent implements OnInit {
       skills: ["MyLiberty"],
     },
   ];
+
   constructor() {}
 
   ngOnInit(): void {}

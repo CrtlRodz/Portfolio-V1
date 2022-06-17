@@ -11,20 +11,19 @@
                     {{ experience.company }}
                     <a href="{{ experience.companyUrl }}" target="_blank"><img src="../assets/img/external_link_icon.png" class="inline-block hover:bg-cyan-400" /></a>
                 </h3>
-                <time class="mb-1 text-sm font-normal leading-none text-neutral-900">{{ experience.date }}</time
-        >
-        <!-- <img class="flex-initial object-scale-down h-48 w-96" src={{experience.companylogo}} /> -->
-        <ul *ngFor="let duty of experience.duties">
-          <li class="mb-4 text-base font-normal text-neutral-500">
-            {{ duty }}
-          </li>
-        </ul>
-        <div class="flex">
-          <div
-            *ngFor="let skill of experience.skills"
-            [ngClass]="
+                <time class="mb-1 text-sm font-normal leading-none text-neutral-900">{{
+          experience.date
+        }}</time>
+                <!-- <img class="flex-initial object-scale-down h-48 w-96" src={{experience.companylogo}} /> -->
+                <ul *ngFor="let duty of experience.duties">
+                    <li class="mb-4 text-base font-normal text-neutral-500">
+                        {{ duty }}
+                    </li>
+                </ul>
+                <div class="flex">
+                    <div *ngFor="let skill of experience.skills" [ngClass]="
               skill === 'Laserfiche'
-                ?'orangebutton'
+                ? 'orangebutton'
                 : skill === 'Mtwo' || skill === 'MyLiberty'
                 ? 'bluebutton'
                 : skill === 'SQL'
@@ -34,12 +33,11 @@
                 : skill === 'CSS'
                 ? 'babybluebutton'
                 : 'defaultbutton'
-            "
-          >
-            {{ skill }}
-          </div>
-        </div>
-      </li>
-    </ol>
-  </div>
+            ">
+                        {{ skill }}
+                    </div>
+                </div>
+            </li>
+        </ol>
+    </div>
 </section>

@@ -3,38 +3,36 @@
     Projects
 </h1>
 <main class="container mx-auto">
-<div class=" grid grid-cols-3 gap-4">
-<a *ngFor="let project of projects" class="">
-    <div class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 ">
-        
-            <img class="card-img-top rounded-tl-2xl w-full h-48" src="{{ project.projectImage }}"  alt="" />
-            <div class="relative">
-                <div class="absolute pointer-events-none bottom-full w-full bg-secondary text-white"> -->
-                     <div class="absolute bottom-full w-full pb-5 overflow-hidden">
-                        <svg viewBox="0 0 100 50" preserveAspectRatio="none" class="absolute bottom-0 w-full h-full tranform" style="transform-origin: top center; transform: scale(2)">
-              <path d="M0 25h25L75 0h25v50H0z" fill="#283046"></path>
-            </svg>
+    <div class="grid grid-cols-3 gap-4">
+        <a *ngFor="let project of projects" class="">
+            <div class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <img class="card-img-top rounded-tl-2xl w-full h-48" src="{{ project.projectImage }}" alt="" />
+                <div class="relative">
+                    <div class="absolute pointer-events-none bottom-full w-full bg-secondary text-white">
+                        -->
+                        <div class="absolute bottom-full w-full pb-5 overflow-hidden">
+                            <svg viewBox="0 0 100 50" preserveAspectRatio="none" class="absolute bottom-0 w-full h-full tranform" style="transform-origin: top center; transform: scale(2)">
+                <path d="M0 25h25L75 0h25v50H0z" fill="#283046"></path>
+              </svg>
+                        </div>
                     </div>
                 </div>
+                <div class="p-5">
+                    <h2 class="text-3xl text-neutral-900 mb-2">
+                        {{ project.ProjectName }}
+                    </h2>
+
+                    <p class="mb-0">
+                        <span class="text-gray-400">{{ project.shortDescription }}</span>
+                    </p>
+                    <a [routerLink]="['/project', project.id]" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-2 py-2.5 text-center mr-2 mb-2">
+            Details
+          </a>
+                    <a href="{{ project.sourceCode }}" target="_blank" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-2 py-2.5 text-center mr-2 mb-2">
+            Source Code
+          </a>
+                </div>
             </div>
-        <div class="p-5">
-            
-                <h2 class="text-3xl text-neutral-900 mb-2">
-                    {{ project.ProjectName }}
-                </h2>
-            
-            <p class="mb-0">
-                <span class="text-gray-400">{{ project.shortDescription }}</span>
-            </p>
-            <a [routerLink]="['/project', project.id]" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-2 py-2.5 text-center mr-2 mb-2">
-                Details
-            </a>
-            <a href="{{project.sourceCode}}" target="_blank" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-2 py-2.5 text-center mr-2 mb-2">
-                Source Code
-            </a>
-        </div>
+        </a>
     </div>
-    
-    </a>
-</div>
 </main>

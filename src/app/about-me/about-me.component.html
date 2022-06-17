@@ -2,10 +2,32 @@
     <h1 class="title uppercase text-center text-4xl grid mt-20 mb-12 items-center gap-8 tracking-widest latest">
         About Me
     </h1>
-
-    <div class="p-8 text-neutral-900">
-        <p>
-            I am a software developer with a passion for creating beautiful, functional, and responsive web applications.
-        </p>
-    </div>
 </section>
+<!-- Container for demo purpose -->
+<div class="container my-24 px-6 mx-auto">
+    <div class="text-neutral-900 flex justify-center">
+        <h2>
+            I am a software developer with a passion for creating beautiful, functional, and responsive web applications.
+        </h2>
+    </div>
+</div>
+
+<!-- Container for demo purpose -->
+<div class="container my-24 px-6 mx-auto">
+    <!-- Section: Design Block -->
+
+    <mat-card class="flex flex-col">
+        <h2 class="text-center text-3xl font-bold mb-6">Skill Set</h2>
+        <div class="grid lg:grid-cols-5">
+            <div class="" *ngFor="let skill of skills">
+                <div class="mb-12">
+                    <div class="flex">
+                        <div class="shrink-0 mt-1">
+                            <img src="{{ skill.logo }}" class="w-10 h-10" alt="{{ skill.name }}" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </mat-card>
+</div>

@@ -7,6 +7,12 @@ body {
     background-color: #f8fbfcfb;
 }
 
+@media (max-width: 767px) {
+    .full-height {
+        height: 125vh;
+    }
+}
+
 .material-icons.text-base {
     font-size: inherit;
 }
@@ -283,5 +289,13 @@ body {
         opacity: 0;
     }
 }
-html, body { height: 100vh }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
