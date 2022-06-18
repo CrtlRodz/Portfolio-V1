@@ -1,10 +1,30 @@
 /* img {
     width: 50px;
 } */
-.githubstats{
+
+.githubstats {
     height: fit-content;
 }
-.title{
+
+.title {
     color: black;
-    filter: drop-shadow(0 0 2px  rgb(16, 247, 247))
+    filter: drop-shadow(0 0 2px rgb(16, 247, 247));
+}
+
+.bg-gradient {
+    background: linear-gradient(132deg, #1c7eee, #0ee661, #081ee0);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@media (min-width: 992px) {
+    #cta-img-nml-50 {
+        margin-left: 50px;
+    }
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }

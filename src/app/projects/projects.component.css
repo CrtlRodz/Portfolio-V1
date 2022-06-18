@@ -1,4 +1,10 @@
-.title{
+.title {
     color: black;
-    filter: drop-shadow(0 0 2px  rgb(16, 247, 247))
+    filter: drop-shadow(0 0 2px rgb(16, 247, 247));
+}
+
+@media (min-width: 992px) {
+    #cta-img-nml-50 {
+        margin-left: 50px;
+    }
 }

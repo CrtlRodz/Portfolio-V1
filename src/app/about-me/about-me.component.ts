@@ -10,7 +10,7 @@ export class AboutMeComponent implements OnInit {
     {
       name: "Cari-Anne Moore",
       title: "Software Developer",
-      age: "256",
+      age: "25",
     },
   ];
   skills = [
@@ -39,6 +39,33 @@ export class AboutMeComponent implements OnInit {
       logo: "./assets/img/html.png",
     },
   ];
+  goals = [
+    {
+      name: "Python",
+      logo: "./assets/img/python_icon.png",
+    },
+    {
+      name: "SQL",
+      logo: "./assets/img/sqllogo.png",
+    },
+    {
+      name: "CSS",
+      logo: "./assets/img/csslogo.png",
+    },
+    {
+      name: "Angular",
+      logo: "./assets/img/Angular.png",
+    },
+    {
+      name: "JavaScript",
+      logo: "./assets/img/JavaScrippt.png",
+    },
+    {
+      name: "HTML",
+      logo: "./assets/img/html.png",
+    },
+  ];
+
   constructor() {}
 
   ngOnInit(): void {}
