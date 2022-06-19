@@ -7,9 +7,9 @@ body {
     background-color: #f8fbfcfb;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 992px) {
     .full-height {
-        height: 125vh;
+        height: 200vh;
     }
 }
 

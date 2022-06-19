@@ -17,22 +17,20 @@
                         <h2 class="text-3xl font-bold mb-6">
                             “There is no Ctrl-Z in life.”
                         </h2>
-                        <p class="mb-6 pb-2 lg:pb-0">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, sint, repellat vel quo quisquam accusamus in qui at ipsa enim quibusdam illo laboriosam omnis. Labore itaque illum distinctio eum neque!
-                        </p>
-                        <h3>TechStack</h3>
                         <div class="flex flex-col md:flex-row md:justify-around xl:justify-start mb-6 mx-auto">
                             <div class="flex md:flex-row md:justify-around xl:justify-start mb-6 mx-auto" *ngFor="let skill of skills">
                                 <p class="flex items-center mb-4 md:mb-2 lg:mb-0 mx-auto md:mx-0 xl:mr-20">
-                                    <img src="{{ skill.logo }}" class="w-10 h-10" alt="" /> {{ skill.name }}
+                                    <img src="{{ skill.logo }}" class="w-10 h-10" alt="{{ skill.name }}" />
                                 </p>
                             </div>
                         </div>
-                        <p>
+                        <p class="mb-6 pb-2 lg:pb-0"></p>
+
+                        <!-- <p>
                             Duis sagittis, turpis in ullamcorper venenatis, ligula nibh porta dui, sit amet rutrum enim massa in ante. Curabitur in justo at lorem laoreet ultricies. Nunc ligula felis, sagittis eget nisi vitae, sodales vestibulum purus. Vestibulum nibh ipsum, rhoncus
                             vel sagittis nec, placerat vel justo. Duis faucibus sapien eget tortor finibus, a eleifend lectus dictum. Cras tempor convallis magna id rhoncus. Suspendisse potenti. Nam mattis faucibus imperdiet. Proin tempor lorem at neque
                             tempus aliquet. Phasellus at ex volutpat, varius arcu id, aliquam lectus. Vestibulum mattis felis quis ex pharetra luctus. Etiam luctus sagittis massa, sed iaculis est vehicula ut.
-                        </p>
+                        </p>  -->
                     </div>
                 </div>
             </div>
