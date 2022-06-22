@@ -65,7 +65,23 @@ export class AboutMeComponent implements OnInit {
       logo: "./assets/img/html.png",
     },
   ];
-
+  socialMedia = [
+    {
+      Name: "Hackerrack",
+      URL: "https://www.hackerrank.com/carianne_rodz",
+      logo: "../assets/hackerrank_icon.png",
+    },
+    {
+      Name: "Github Profile",
+      URL: "https://github.com/CrtlRodz",
+      logo: "../assets/github_icon.svg",
+    },
+    {
+      Name: "LinkedIn Profile",
+      URL: "https://www.linkedin.com/in/cari-anne-moore-36163111a/",
+      logo: "../assets/linkedinIcon.svg",
+    },
+  ];
   constructor() {}
 
   ngOnInit(): void {}
