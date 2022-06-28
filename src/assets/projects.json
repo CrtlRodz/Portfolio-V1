@@ -14,7 +14,7 @@
         "bellmanImg":"./assets/img/BellmanEquation.png"
     },
     {
-        "id": 2,
+        "id": 3,
 
         "ProjectName": "Grogu Assistant",
         "techStack": ["Python"],
@@ -25,7 +25,18 @@
         "sourceCode": "https://github.com/CrtlRodz/Grogu-voice-activated-virtual-assistant/blob/main/GroguVA.py"
     },
     {
-        "id": 3,
+        "id": 2,
+
+        "ProjectName": "Clipz",
+        "techStack": ["TypeScript", "Angular", "JavaScript","Firebase"],
+        "dateCreated": "1 May 2022 (still in development)",
+        "shortDescription": " This application is a large scale app built using angular.",
+        "projectImage": "./assets/img/Clipz.png",
+        "longDescription": "In this application a user can uplaod game play videos and watch other users videos which have been upladed",
+        "sourceCode": "https://github.com/CrtlRodz/Angular-Clipz-project"
+    },
+    {
+        "id": 4,
 
         "ProjectName": "Note Taker App",
         "techStack": ["JavaScript", "HTML", "SCSS"],
