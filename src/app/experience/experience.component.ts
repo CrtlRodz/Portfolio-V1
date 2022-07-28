@@ -8,24 +8,33 @@ import { Component, OnInit } from "@angular/core";
 export class ExperienceComponent implements OnInit {
   experiences = [
     {
+      title: "Software Engineer",
+      company: "Dotmodus",
+      companylogo: "./assets/img/GICLogo.png",
+      companyUrl: "https://www.dotmodus.com/",
+      date: "Angust 2022- Present",
+      duties: [],
+      skills: [],
+    },
+    {
       title: "Software Developer",
       company: "Gap Infrastructure Corporation",
       companylogo: "./assets/img/GICLogo.png",
       companyUrl: "https://www.gic.co.za/",
-      date: "Feb 2022- Present",
+      date: "February 2022- July 2022",
       duties: [
         "Developing solutions to meet a user’s needs within a system.",
         "Resolving system and user issues.",
         "Develop,testing and validating procedures",
       ],
-      skills: ["Laserfiche", "Mtwo", "SQL", "JavaScript", "CSS","Angular"],
+      skills: ["Laserfiche", "Mtwo", "SQL", "JavaScript", "CSS", "Angular"],
     },
     {
       title: "System Developer",
       company: "Gap Infrastructure Corporation",
       companylogo: "./assets/img/GICLogo.png",
       companyUrl: "https://www.gic.co.za/",
-      date: "Apr 2021- Mar 2022",
+      date: "April 2021- March 2022",
       duties: [
         "Developing solutions to meet a user’s needs within a system.",
         "Resolving system and user issues.",
@@ -36,14 +45,14 @@ export class ExperienceComponent implements OnInit {
         "Identifying and assigning employees roles within software platforms",
         "Configuration of software platforms.",
       ],
-      skills: ["Laserfiche", "Mtwo", "SQL","JavaScript", "CSS"],
+      skills: ["Laserfiche", "Mtwo", "SQL", "JavaScript", "CSS"],
     },
     {
       title: "Intern",
       company: "TonTrac System Analytics",
       companylogo: "./assets/img/GICLogo.png",
       companyUrl: "https://salecapital.co/",
-      date: "July 2017 - Oct 2017",
+      date: "July 2017 - October 2017",
       duties: [
         "Installed computer systems and software",
         "Diagnosed hardware and software issues",
@@ -51,14 +60,14 @@ export class ExperienceComponent implements OnInit {
         "Used my interpersonal skills to communicate with employees who faced technical issues",
         "Managed and maintained records of stocks of equipment.",
       ],
-      skills: [ "SQL"],
+      skills: ["SQL"],
     },
     {
       title: "Intern",
       company: "SalesCapital",
       companylogo: "./assets/img/GICLogo.png",
       companyUrl: "https://salecapital.co/",
-      date: "July 2017 - Oct 2017",
+      date: "July 2017 - October 2017",
       duties: [
         "Documenting and maintaining the sales capital system.",
         "Adding new Clients to the system.",

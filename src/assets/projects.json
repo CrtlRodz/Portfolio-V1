@@ -1,39 +1,70 @@
-[{
-        "id": 1,
+[
+  {
+    "id": 1,
 
-        "ProjectName": "Greg Game",
-        "techStack": ["Python" ],
-        "library":["Numpy", "Pygame", "Enum", "torch", "matplotlib"],
-        "dateCreated": "12 May 2022",
-        "shortDescription": " This Project is based on Reinforcement Learning which trains the greg to eat the food present in the environment.",
-        "projectImage": "./assets/img/gregGame.gif",
-        "longDescription": ["The following are modules for this Greg Game."],
-        "sourceCode": "https://github.com/CrtlRodz/GregGame/tree/main/snake_game",
-        "elements":["The Environment","The Model(Reinforcement model for move prediction)","The Agent"],
-        "models":["The Greg Game starts, and the Q-value is randomly generated.","The system gets the current state 's'","Based on 's', it executes an action, randomly.","When the Greg chooses and performs the action, the environment gives a reward.\nThen, the agent reaches the new state and updates its Q-value according to the Bellman equation"],
-        "bellmanImg":"./assets/img/BellmanEquation.png"
-    },
-    {
-        "id": 2,
+    "ProjectName": "Greg Game",
+    "techStack": ["Python"],
+    "library": ["Numpy", "Pygame", "Enum", "torch", "matplotlib"],
+    "dateCreated": "12 May 2022",
+    "shortDescription": " This Project is based on Reinforcement Learning which trains the greg to eat the food present in the environment.",
+    "projectImage": "./assets/img/gregGame.gif",
+    "longDescription": ["The following are modules for this Greg Game."],
+    "sourceCode": "https://github.com/CrtlRodz/GregGame/tree/main/snake_game",
+    "elements": [
+      "The Environment",
+      "The Model(Reinforcement model for move prediction)",
+      "The Agent"
+    ],
+    "models": [
+      "The Greg Game starts, and the Q-value is randomly generated.",
+      "The system gets the current state 's'",
+      "Based on 's', it executes an action, randomly.",
+      "When the Greg chooses and performs the action, the environment gives a reward.\nThen, the agent reaches the new state and updates its Q-value according to the Bellman equation"
+    ],
+    "bellmanImg": "./assets/img/BellmanEquation.png"
+  },
+  {
+    "id": 2,
 
-        "ProjectName": "Grogu Assistant",
-        "techStack": ["Python"],
-        "dateCreated": "5 April 2022",
-        "shortDescription": " This is a virtual assistant like Google Assistant which is able to perform tasks like opening websites, playing music, playing videos, and more.",
-        "projectImage": "./assets/img/yoda.png",
-        "longDescription": "This application is a virtual assistant which is able to perform tasks like opening websites, playing music, playing videos, and more. The application is built using Python and the libraries used are SpeechRecognition, pyttsx3, and pygame. The application is able to recognize the voice and perform the task.",
-        "sourceCode": "https://github.com/CrtlRodz/Grogu-voice-activated-virtual-assistant/blob/main/GroguVA.py"
-    },
-    {
-        "id": 3,
+    "ProjectName": "Grogu Assistant",
+    "techStack": ["Python"],
+    "dateCreated": "5 April 2022",
+    "shortDescription": " This is a virtual assistant like Google Assistant which is able to perform tasks like opening websites, playing music, playing videos, and more.",
+    "projectImage": "./assets/img/yoda.png",
+    "longDescription": "This application is a virtual assistant which is able to perform tasks like opening websites, playing music, playing videos, and more. The application is built using Python and the libraries used are SpeechRecognition, pyttsx3, and pygame. The application is able to recognize the voice and perform the task.",
+    "sourceCode": "https://github.com/CrtlRodz/Grogu-voice-activated-virtual-assistant/blob/main/GroguVA.py"
+  },
+  {
+    "id": 3,
 
-        "ProjectName": "Note Taker App",
-        "techStack": ["JavaScript", "HTML", "SCSS"],
-        "dateCreated": "7 December 2021",
-        "shortDescription": " This application allows a user to store all notes in one location. This all is stored on a users local hard drive",
-        "projectImage": "./assets/img/reading_icon.png",
-        "longDescription": "This application allows a users to store all notes in one location. The languages used to create this application are JavaScript for functionality, HTML for the front end and SCSS for the appearance of elements. The reason SCSS was used was to improve the quality of code written and shorten the time to write the scss",
-        "sourceCode": "https://github.com/CrtlRodz/NoteTakerApp/tree/main/PersonalApp"
-    }
-    
+    "ProjectName": "Note Taker App",
+    "techStack": ["JavaScript", "HTML", "SCSS"],
+    "dateCreated": "7 December 2021",
+    "shortDescription": " This application allows a user to store all notes in one location. This all is stored on a users local hard drive",
+    "projectImage": "./assets/img/reading_icon.png",
+    "longDescription": "This application allows a users to store all notes in one location. The languages used to create this application are JavaScript for functionality, HTML for the front end and SCSS for the appearance of elements. The reason SCSS was used was to improve the quality of code written and shorten the time to write the scss",
+    "sourceCode": "https://github.com/CrtlRodz/NoteTakerApp/tree/main/PersonalApp"
+  },
+  {
+    "id": 4,
+
+    "ProjectName": "Cube",
+    "techStack": ["HTML", "CSS"],
+    "dateCreated": "7 December 2021",
+    "shortDescription": "Its just a cube thats spins almost like a mind calming Fidget cube",
+    "projectImage": "./assets/img/Cube.png",
+    "longDescription": "No Really its just a cube",
+    "sourceCode": "https://github.com/CrtlRodz/Cube/blob/main/index.html"
+  },
+  {
+    "id": 5,
+
+    "ProjectName": "CaptureIT",
+    "techStack": ["Python", "Angular", "FastAPI"],
+    "dateCreated": "8 July 2022",
+    "shortDescription": "This is a fullstack application,which snaps a pic using your camera and stores it into a gallery",
+    "projectImage": "./assets/img/CaptureIT.png",
+    "longDescription": "This is a fullstack application,which snaps a pic using your camera and stores it into a gallery",
+    "sourceCode": "https://github.com/CrtlRodz/CaptureIT-Angular-Python"
+  }
 ]

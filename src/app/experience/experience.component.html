@@ -1,44 +1,55 @@
 <section>
-    <h1 class="title uppercase text-center text-neutral-900 text-4xl grid mt-20 mb-12 items-center gap-8 tracking-widest latest">
-        Experience
-    </h1>
-    <div class="flex justify-center items-center flex-col">
-        <ol class="relative border-l border-gray-900 dark:border-gray-900">
-            <li class="mb-10 ml-4" *ngFor="let experience of experiences">
-                <div class="absolute w-3 h-3 bg-cyan-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-900"></div>
-                <h1 class="text-cyan-400">{{ experience.title }}</h1>
-                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                    {{ experience.company }}
-                    <a href="{{ experience.companyUrl }}" target="_blank"><img src="../assets/img/external_link_icon.png" class="inline-block hover:bg-cyan-400" /></a>
-                </h3>
-                <time class="mb-1 text-sm font-normal leading-none text-neutral-900">{{
+  <h1
+    class="title uppercase text-center text-neutral-900 text-4xl grid mt-20 mb-12 items-center gap-8 tracking-widest latest"
+  >
+    Experience
+  </h1>
+  <div class="flex justify-center items-center flex-col">
+    <ol class="relative border-l border-gray-900 dark:border-gray-900">
+      <li class="mb-10 ml-4" *ngFor="let experience of experiences">
+        <div
+          class="absolute w-3 h-3 bg-cyan-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-900"
+        ></div>
+        <h1 class="text-cyan-400">{{ experience.title }}</h1>
+        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+          {{ experience.company }}
+          <a href="{{ experience.companyUrl }}" target="_blank"
+            ><img
+              src="../assets/img/external_link_icon.png"
+              class="inline-block hover:bg-cyan-400"
+          /></a>
+        </h3>
+        <time class="mb-1 text-sm font-normal leading-none text-neutral-900">{{
           experience.date
         }}</time>
-                <!-- <img class="flex-initial object-scale-down h-48 w-96" src={{experience.companylogo}} /> -->
-                <ul *ngFor="let duty of experience.duties">
-                    <li class="mb-4 text-base font-normal text-neutral-500">
-                        {{ duty }}
-                    </li>
-                </ul>
-                <div class="flex">
-                    <div *ngFor="let skill of experience.skills" [ngClass]="
+        <!-- <img class="flex-initial object-scale-down h-48 w-96" src={{experience.companylogo}} /> -->
+        <ul *ngFor="let duty of experience.duties">
+          <li class="mb-4 text-base font-normal text-neutral-500">
+            {{ duty }}
+          </li>
+        </ul>
+        <div class="flex">
+          <div
+            *ngFor="let skill of experience.skills"
+            [ngClass]="
               skill === 'Laserfiche'
                 ? 'orangebutton'
                 : skill === 'Mtwo' || skill === 'MyLiberty'
                 ? 'bluebutton'
-                : skill === 'SQL'|| skill === 'Angular'
+                : skill === 'SQL' || skill === 'Angular'
                 ? 'redbutton'
                 : skill === 'JavaScript' || skill === 'Bellin'
                 ? 'yellowbutton '
                 : skill === 'CSS'
                 ? 'babybluebutton'
                 : 'defaultbutton'
-            ">
-                        {{ skill }}
-                    </div>
-                </div>
-            </li>
-        </ol>
-    </div>
+            "
+          >
+            {{ skill }}
+          </div>
+        </div>
+      </li>
+    </ol>
+  </div>
 </section>
 <!-- Back to top button -->
