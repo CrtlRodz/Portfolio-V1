@@ -60,7 +60,7 @@
     "id": 5,
 
     "ProjectName": "CaptureIT",
-    "techStack": ["Python", "Angular", "FastAPI"],
+    "techStack": ["FastAPI", "Python", "Angular"],
     "dateCreated": "8 July 2022",
     "shortDescription": "This is a fullstack application,which snaps a pic using your camera and stores it into a gallery",
     "projectImage": "./assets/img/CaptureIT.png",
