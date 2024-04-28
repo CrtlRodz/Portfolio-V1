@@ -1,7 +1,5 @@
-# Ctrlrodz
-<div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/CrtlRodz/v1/main/src/assets/img/logo.png" width="100" />
-</div>
+
+
 <h1 align="center">
  ctrlrodz.dev - v1
 </h1>
